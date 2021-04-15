@@ -1,0 +1,40 @@
+2021-04-04 13:00:14.824  INFO 2284 --- [restartedMain] com.lys.lys_blog.LysBlogApplication      : Starting LysBlogApplication using Java 1.8.0_131 on MSI with PID 2284 (D:\IdeaProjects\lys_blog\target\classes started by lys in D:\IdeaProjects\lys_blog)
+2021-04-04 13:00:14.845  INFO 2284 --- [restartedMain] com.lys.lys_blog.LysBlogApplication      : The following profiles are active: dev
+2021-04-04 13:00:14.913  INFO 2284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-04 13:00:14.913  INFO 2284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-04 13:00:16.534  INFO 2284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-04-04 13:00:16.542  INFO 2284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-04 13:00:16.542  INFO 2284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-04 13:00:16.642  INFO 2284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-04 13:00:16.642  INFO 2284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1729 ms
+2021-04-04 13:00:17.342  INFO 2284 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-04 13:00:17.478  INFO 2284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-04 13:00:18.150  INFO 2284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-04 13:00:18.190  INFO 2284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-04-04 13:00:18.198  INFO 2284 --- [restartedMain] com.lys.lys_blog.LysBlogApplication      : Started LysBlogApplication in 4.044 seconds (JVM running for 5.465)
+2021-04-04 13:00:21.694  INFO 2284 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-04 13:00:21.694  INFO 2284 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-04 13:00:21.694  INFO 2284 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-04 13:00:23.687  INFO 2284 --- [http-nio-80-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-04 13:00:23.695  WARN 2284 --- [http-nio-80-exec-6] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-04-04 13:00:23.855  INFO 2284 --- [http-nio-80-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-04 13:12:04.735  INFO 1268 --- [restartedMain] com.lys.lys_blog.LysBlogApplication      : Starting LysBlogApplication using Java 1.8.0_131 on MSI with PID 1268 (D:\IdeaProjects\lys_blog\target\classes started by lys in D:\IdeaProjects\lys_blog)
+2021-04-04 13:12:04.735  INFO 1268 --- [restartedMain] com.lys.lys_blog.LysBlogApplication      : The following profiles are active: dev
+2021-04-04 13:12:04.785  INFO 1268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-04 13:12:04.785  INFO 1268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-04 13:12:06.030  INFO 1268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-04-04 13:12:06.040  INFO 1268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-04 13:12:06.040  INFO 1268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-04 13:12:06.151  INFO 1268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-04 13:12:06.151  INFO 1268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
+2021-04-04 13:12:06.767  INFO 1268 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-04 13:12:06.855  INFO 1268 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-04 13:12:07.219  INFO 1268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-04 13:12:07.250  INFO 1268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-04-04 13:12:07.268  INFO 1268 --- [restartedMain] com.lys.lys_blog.LysBlogApplication      : Started LysBlogApplication in 3.12 seconds (JVM running for 4.384)
+2021-04-04 13:12:12.715  INFO 1268 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-04 13:12:12.720  INFO 1268 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-04 13:12:12.720  INFO 1268 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-04 13:12:14.831  INFO 1268 --- [http-nio-80-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-04 13:12:14.840  WARN 1268 --- [http-nio-80-exec-5] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-04-04 13:12:14.990  INFO 1268 --- [http-nio-80-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lys.lys_blog.mapper.FriendLinkMapper">
+    <!--查询所有友链-->
+    <select id="listFriendLinks" resultType="com.lys.lys_blog.pojo.FriendLink">
+        select * from t_friend order by t_friend.create_time desc
+    </select>
+<!--  根据地址查询一个友链  -->
+    <select id="getFriendLink" resultType="com.lys.lys_blog.pojo.FriendLink">
+        select * from t_friend where blogaddress = #{blogAddress}
+    </select>
+<!--   保存友链 -->
+    <insert id="saveFriendLink" parameterType="com.lys.lys_blog.pojo.FriendLink">
+        insert into t_friend(blogaddress, blogname, create_time, pictureaddress) values (
+        #{blogaddress},#{blogname},#{createTime},#{pictureaddress})
+    </insert>
+<!--   编辑友链 -->
+    <update id="updateFriendLink" parameterType="com.lys.lys_blog.pojo.FriendLink">
+        update t_friend set blogaddress = #{blogaddress},blogname = #{blogname},pictureaddress = #{pictureaddress}
+    </update>
+<!--    根据Id查询友链-->
+    <select id="getFriendLinkById" resultType="com.lys.lys_blog.pojo.FriendLink">
+        select  * from t_friend where id = #{id}
+    </select>
+<!--    删除友链-->
+    <delete id="delete" >
+        delete from t_friend where id = #{id}
+    </delete>
+</mapper>
